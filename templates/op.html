@@ -1,0 +1,1905 @@
+{% include"nav.html"%}
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+  
+
+{%if a == "Apple"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/1_100.jpg/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student NAME:</h3>
+      <p><LI>STUDENT NAME :Mubbashira Fatima </LI>
+        <LI> PROJECT MENTOR NAME : SIR ZAHEER AHMED </LI>
+        <LI>COLLEGE NAME : SMT.ASM COLLEGE FOR WOMEN BALLARI</LI></p>
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+
+
+{%if a == "Apricot"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/10_100.jpg/" ></div>
+      </div>
+    
+   
+  <div class="rightcolumn">
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :Mubbashira Fatima </LI>
+        
+    </div>
+    
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+
+{%if a == "Avocado"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    
+   
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :Mubbashira Fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+
+{%if a == "Banana"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+
+
+{%if a == "Blueberry"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    
+  <div class="rightcolumn">
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+
+
+
+
+{%if a == "Cactus fruit"%}
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/000bf685-b305-408b-91f4-37030f8e62db___GH_HL Leaf 308.1.JPG/" ></div>
+      </div>
+    
+    
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+
+{%if a == "Cherry"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    
+  </div>
+  <div class="rightcolumn">
+        </div>
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+
+{%if a == "Chestnut"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+
+
+{%if a == "Coconut"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+
+{%if a == "Corn"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+<!-- new Classes -->
+
+{%if a == "Dates"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+{%if a == "Dragon Fruit"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/4_100.jpg/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+{%if a == "Fig"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    
+  </div>
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+{%if a == "Grape"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    
+  </div>
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+{%if a == "Grape Blue"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+{%if a == "Green Capsicum"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+{%if a == "Guava"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    
+  </div>
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+{%if a == "Hazelnut"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+
+{%if a == "Huckleberry"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+{%if a == "Kiwi"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+<!-- new classes  -->
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+{%if a == "Lemon"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+{%if a == "Lychee"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+{%if a == "Mandarine"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    
+  </div>
+  <div class="rightcolumn">
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+{%if a == "Mango"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    
+  <div class="rightcolumn">
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+{%if a == "Mango Red"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+{%if a == "Mulberry"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    <div class="card">
+      <h2>Tomato Spider mites Two spotted spider mite</h2>
+      <h3>Scientific Name : Tetranychus urticae Koch </h3>
+      Target spot of tomato caused by Corynespora cassiicola, is a serious foliar disease of both greenhouse and field grown tomatoes. The field disease is limited to the tropical and subtropical regions of the world.
+      <h2>Symptoms</h2>
+      Target Spot is a fungal disease that affects tomato plants. 
+      <ul>
+      <li>Circular Spots: Dark, circular spots with a concentric ring pattern develop on tomato leaves.</li>
+      <li>Yellowing Leaves: Leaves around the spots turn yellow, leading to a mottled appearance.</li>
+      <li>Leaf Drop: Severe infections can cause leaves to drop, weakening the plant.</li>
+      <li>Fruit Spots: In some cases, small, dark spots may appear on the fruit.</li>
+      <li>Reduced Yield: Target Spot can reduce fruit production as it progresses.</li>
+      <li>Thrive in Warm, Humid Conditions: The disease thrives in warm and humid weather.</li>
+      <li>Prevention and Management: Manage Target Spot with good garden hygiene, avoiding overhead watering, and considering fungicide application in severe cases. Adequate spacing and ventilation can also help reduce humidity and the risk of infection.</li>
+       Early detection and proper management are essential to minimize the impact of Target Spot on tomato plants and their yield.
+      </ul>
+      </div>
+  </div>
+  <div class="rightcolumn">
+   
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+{%if a == "Orange"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    <div class="card">
+      <h2>Tomato Spider mites Two spotted spider mite</h2>
+      <h3>Scientific Name : Tetranychus urticae Koch </h3>
+      Target spot of tomato caused by Corynespora cassiicola, is a serious foliar disease of both greenhouse and field grown tomatoes. The field disease is limited to the tropical and subtropical regions of the world.
+      <h2>Symptoms</h2>
+      Target Spot is a fungal disease that affects tomato plants. 
+      <ul>
+      <li>Circular Spots: Dark, circular spots with a concentric ring pattern develop on tomato leaves.</li>
+      <li>Yellowing Leaves: Leaves around the spots turn yellow, leading to a mottled appearance.</li>
+      <li>Leaf Drop: Severe infections can cause leaves to drop, weakening the plant.</li>
+      <li>Fruit Spots: In some cases, small, dark spots may appear on the fruit.</li>
+      <li>Reduced Yield: Target Spot can reduce fruit production as it progresses.</li>
+      <li>Thrive in Warm, Humid Conditions: The disease thrives in warm and humid weather.</li>
+      <li>Prevention and Management: Manage Target Spot with good garden hygiene, avoiding overhead watering, and considering fungicide application in severe cases. Adequate spacing and ventilation can also help reduce humidity and the risk of infection.</li>
+       Early detection and proper management are essential to minimize the impact of Target Spot on tomato plants and their yield.
+      </ul>
+      </div>
+  </div>
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+{%if a == "Papaya"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    <div class="card">
+      <h2>Tomato Spider mites Two spotted spider mite</h2>
+      <h3>Scientific Name : Tetranychus urticae Koch </h3>
+      Target spot of tomato caused by Corynespora cassiicola, is a serious foliar disease of both greenhouse and field grown tomatoes. The field disease is limited to the tropical and subtropical regions of the world.
+      <h2>Symptoms</h2>
+      Target Spot is a fungal disease that affects tomato plants. 
+      <ul>
+      <li>Circular Spots: Dark, circular spots with a concentric ring pattern develop on tomato leaves.</li>
+      <li>Yellowing Leaves: Leaves around the spots turn yellow, leading to a mottled appearance.</li>
+      <li>Leaf Drop: Severe infections can cause leaves to drop, weakening the plant.</li>
+      <li>Fruit Spots: In some cases, small, dark spots may appear on the fruit.</li>
+      <li>Reduced Yield: Target Spot can reduce fruit production as it progresses.</li>
+      <li>Thrive in Warm, Humid Conditions: The disease thrives in warm and humid weather.</li>
+      <li>Prevention and Management: Manage Target Spot with good garden hygiene, avoiding overhead watering, and considering fungicide application in severe cases. Adequate spacing and ventilation can also help reduce humidity and the risk of infection.</li>
+       Early detection and proper management are essential to minimize the impact of Target Spot on tomato plants and their yield.
+      </ul>
+      </div>
+  </div>
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+{%if a == "Passion Fruit"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    <div class="card">
+      <h2>Tomato Spider mites Two spotted spider mite</h2>
+      <h3>Scientific Name : Tetranychus urticae Koch </h3>
+      Target spot of tomato caused by Corynespora cassiicola, is a serious foliar disease of both greenhouse and field grown tomatoes. The field disease is limited to the tropical and subtropical regions of the world.
+      <h2>Symptoms</h2>
+      Target Spot is a fungal disease that affects tomato plants. 
+      <ul>
+      <li>Circular Spots: Dark, circular spots with a concentric ring pattern develop on tomato leaves.</li>
+      <li>Yellowing Leaves: Leaves around the spots turn yellow, leading to a mottled appearance.</li>
+      <li>Leaf Drop: Severe infections can cause leaves to drop, weakening the plant.</li>
+      <li>Fruit Spots: In some cases, small, dark spots may appear on the fruit.</li>
+      <li>Reduced Yield: Target Spot can reduce fruit production as it progresses.</li>
+      <li>Thrive in Warm, Humid Conditions: The disease thrives in warm and humid weather.</li>
+      <li>Prevention and Management: Manage Target Spot with good garden hygiene, avoiding overhead watering, and considering fungicide application in severe cases. Adequate spacing and ventilation can also help reduce humidity and the risk of infection.</li>
+       Early detection and proper management are essential to minimize the impact of Target Spot on tomato plants and their yield.
+      </ul>
+      </div>
+  </div>
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+{%if a == "Peach"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    <div class="card">
+      <h2>Tomato Spider mites Two spotted spider mite</h2>
+      <h3>Scientific Name : Tetranychus urticae Koch </h3>
+      Target spot of tomato caused by Corynespora cassiicola, is a serious foliar disease of both greenhouse and field grown tomatoes. The field disease is limited to the tropical and subtropical regions of the world.
+      <h2>Symptoms</h2>
+      Target Spot is a fungal disease that affects tomato plants. 
+      <ul>
+      <li>Circular Spots: Dark, circular spots with a concentric ring pattern develop on tomato leaves.</li>
+      <li>Yellowing Leaves: Leaves around the spots turn yellow, leading to a mottled appearance.</li>
+      <li>Leaf Drop: Severe infections can cause leaves to drop, weakening the plant.</li>
+      <li>Fruit Spots: In some cases, small, dark spots may appear on the fruit.</li>
+      <li>Reduced Yield: Target Spot can reduce fruit production as it progresses.</li>
+      <li>Thrive in Warm, Humid Conditions: The disease thrives in warm and humid weather.</li>
+      <li>Prevention and Management: Manage Target Spot with good garden hygiene, avoiding overhead watering, and considering fungicide application in severe cases. Adequate spacing and ventilation can also help reduce humidity and the risk of infection.</li>
+       Early detection and proper management are essential to minimize the impact of Target Spot on tomato plants and their yield.
+      </ul>
+      </div>
+  </div>
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+{%if a == "Pear"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    <div class="card">
+      <h2>Tomato Spider mites Two spotted spider mite</h2>
+      <h3>Scientific Name : Tetranychus urticae Koch </h3>
+      Target spot of tomato caused by Corynespora cassiicola, is a serious foliar disease of both greenhouse and field grown tomatoes. The field disease is limited to the tropical and subtropical regions of the world.
+      <h2>Symptoms</h2>
+      Target Spot is a fungal disease that affects tomato plants. 
+      <ul>
+      <li>Circular Spots: Dark, circular spots with a concentric ring pattern develop on tomato leaves.</li>
+      <li>Yellowing Leaves: Leaves around the spots turn yellow, leading to a mottled appearance.</li>
+      <li>Leaf Drop: Severe infections can cause leaves to drop, weakening the plant.</li>
+      <li>Fruit Spots: In some cases, small, dark spots may appear on the fruit.</li>
+      <li>Reduced Yield: Target Spot can reduce fruit production as it progresses.</li>
+      <li>Thrive in Warm, Humid Conditions: The disease thrives in warm and humid weather.</li>
+      <li>Prevention and Management: Manage Target Spot with good garden hygiene, avoiding overhead watering, and considering fungicide application in severe cases. Adequate spacing and ventilation can also help reduce humidity and the risk of infection.</li>
+       Early detection and proper management are essential to minimize the impact of Target Spot on tomato plants and their yield.
+      </ul>
+      </div>
+  </div>
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+{%if a == "Pineapple"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    <div class="card">
+      <h2>Tomato Spider mites Two spotted spider mite</h2>
+      <h3>Scientific Name : Tetranychus urticae Koch </h3>
+      Target spot of tomato caused by Corynespora cassiicola, is a serious foliar disease of both greenhouse and field grown tomatoes. The field disease is limited to the tropical and subtropical regions of the world.
+      <h2>Symptoms</h2>
+      Target Spot is a fungal disease that affects tomato plants. 
+      <ul>
+      <li>Circular Spots: Dark, circular spots with a concentric ring pattern develop on tomato leaves.</li>
+      <li>Yellowing Leaves: Leaves around the spots turn yellow, leading to a mottled appearance.</li>
+      <li>Leaf Drop: Severe infections can cause leaves to drop, weakening the plant.</li>
+      <li>Fruit Spots: In some cases, small, dark spots may appear on the fruit.</li>
+      <li>Reduced Yield: Target Spot can reduce fruit production as it progresses.</li>
+      <li>Thrive in Warm, Humid Conditions: The disease thrives in warm and humid weather.</li>
+      <li>Prevention and Management: Manage Target Spot with good garden hygiene, avoiding overhead watering, and considering fungicide application in severe cases. Adequate spacing and ventilation can also help reduce humidity and the risk of infection.</li>
+       Early detection and proper management are essential to minimize the impact of Target Spot on tomato plants and their yield.
+      </ul>
+      </div>
+  </div>
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+{%if a == "Plum"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    <div class="card">
+      <h2>Tomato Spider mites Two spotted spider mite</h2>
+      <h3>Scientific Name : Tetranychus urticae Koch </h3>
+      Target spot of tomato caused by Corynespora cassiicola, is a serious foliar disease of both greenhouse and field grown tomatoes. The field disease is limited to the tropical and subtropical regions of the world.
+      <h2>Symptoms</h2>
+      Target Spot is a fungal disease that affects tomato plants. 
+      <ul>
+      <li>Circular Spots: Dark, circular spots with a concentric ring pattern develop on tomato leaves.</li>
+      <li>Yellowing Leaves: Leaves around the spots turn yellow, leading to a mottled appearance.</li>
+      <li>Leaf Drop: Severe infections can cause leaves to drop, weakening the plant.</li>
+      <li>Fruit Spots: In some cases, small, dark spots may appear on the fruit.</li>
+      <li>Reduced Yield: Target Spot can reduce fruit production as it progresses.</li>
+      <li>Thrive in Warm, Humid Conditions: The disease thrives in warm and humid weather.</li>
+      <li>Prevention and Management: Manage Target Spot with good garden hygiene, avoiding overhead watering, and considering fungicide application in severe cases. Adequate spacing and ventilation can also help reduce humidity and the risk of infection.</li>
+       Early detection and proper management are essential to minimize the impact of Target Spot on tomato plants and their yield.
+      </ul>
+      </div>
+  </div>
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+{%if a == "Pomegranate"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    <div class="card">
+      <h2>Tomato Spider mites Two spotted spider mite</h2>
+      <h3>Scientific Name : Tetranychus urticae Koch </h3>
+      Target spot of tomato caused by Corynespora cassiicola, is a serious foliar disease of both greenhouse and field grown tomatoes. The field disease is limited to the tropical and subtropical regions of the world.
+      <h2>Symptoms</h2>
+      Target Spot is a fungal disease that affects tomato plants. 
+      <ul>
+      <li>Circular Spots: Dark, circular spots with a concentric ring pattern develop on tomato leaves.</li>
+      <li>Yellowing Leaves: Leaves around the spots turn yellow, leading to a mottled appearance.</li>
+      <li>Leaf Drop: Severe infections can cause leaves to drop, weakening the plant.</li>
+      <li>Fruit Spots: In some cases, small, dark spots may appear on the fruit.</li>
+      <li>Reduced Yield: Target Spot can reduce fruit production as it progresses.</li>
+      <li>Thrive in Warm, Humid Conditions: The disease thrives in warm and humid weather.</li>
+      <li>Prevention and Management: Manage Target Spot with good garden hygiene, avoiding overhead watering, and considering fungicide application in severe cases. Adequate spacing and ventilation can also help reduce humidity and the risk of infection.</li>
+       Early detection and proper management are essential to minimize the impact of Target Spot on tomato plants and their yield.
+      </ul>
+      </div>
+  </div>
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+{%if a == "Quince"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    <div class="card">
+      <h2>Tomato Spider mites Two spotted spider mite</h2>
+      <h3>Scientific Name : Tetranychus urticae Koch </h3>
+      Target spot of tomato caused by Corynespora cassiicola, is a serious foliar disease of both greenhouse and field grown tomatoes. The field disease is limited to the tropical and subtropical regions of the world.
+      <h2>Symptoms</h2>
+      Target Spot is a fungal disease that affects tomato plants. 
+      <ul>
+      <li>Circular Spots: Dark, circular spots with a concentric ring pattern develop on tomato leaves.</li>
+      <li>Yellowing Leaves: Leaves around the spots turn yellow, leading to a mottled appearance.</li>
+      <li>Leaf Drop: Severe infections can cause leaves to drop, weakening the plant.</li>
+      <li>Fruit Spots: In some cases, small, dark spots may appear on the fruit.</li>
+      <li>Reduced Yield: Target Spot can reduce fruit production as it progresses.</li>
+      <li>Thrive in Warm, Humid Conditions: The disease thrives in warm and humid weather.</li>
+      <li>Prevention and Management: Manage Target Spot with good garden hygiene, avoiding overhead watering, and considering fungicide application in severe cases. Adequate spacing and ventilation can also help reduce humidity and the risk of infection.</li>
+       Early detection and proper management are essential to minimize the impact of Target Spot on tomato plants and their yield.
+      </ul>
+      </div>
+  </div>
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+{%if a == "Raspberry"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    <div class="card">
+      <h2>Tomato Spider mites Two spotted spider mite</h2>
+      <h3>Scientific Name : Tetranychus urticae Koch </h3>
+      Target spot of tomato caused by Corynespora cassiicola, is a serious foliar disease of both greenhouse and field grown tomatoes. The field disease is limited to the tropical and subtropical regions of the world.
+      <h2>Symptoms</h2>
+      Target Spot is a fungal disease that affects tomato plants. 
+      <ul>
+      <li>Circular Spots: Dark, circular spots with a concentric ring pattern develop on tomato leaves.</li>
+      <li>Yellowing Leaves: Leaves around the spots turn yellow, leading to a mottled appearance.</li>
+      <li>Leaf Drop: Severe infections can cause leaves to drop, weakening the plant.</li>
+      <li>Fruit Spots: In some cases, small, dark spots may appear on the fruit.</li>
+      <li>Reduced Yield: Target Spot can reduce fruit production as it progresses.</li>
+      <li>Thrive in Warm, Humid Conditions: The disease thrives in warm and humid weather.</li>
+      <li>Prevention and Management: Manage Target Spot with good garden hygiene, avoiding overhead watering, and considering fungicide application in severe cases. Adequate spacing and ventilation can also help reduce humidity and the risk of infection.</li>
+       Early detection and proper management are essential to minimize the impact of Target Spot on tomato plants and their yield.
+      </ul>
+      </div>
+  </div>
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+{%if a == "Redcurrant"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    <div class="card">
+      <h2>Tomato Spider mites Two spotted spider mite</h2>
+      <h3>Scientific Name : Tetranychus urticae Koch </h3>
+      Target spot of tomato caused by Corynespora cassiicola, is a serious foliar disease of both greenhouse and field grown tomatoes. The field disease is limited to the tropical and subtropical regions of the world.
+      <h2>Symptoms</h2>
+      Target Spot is a fungal disease that affects tomato plants. 
+      <ul>
+      <li>Circular Spots: Dark, circular spots with a concentric ring pattern develop on tomato leaves.</li>
+      <li>Yellowing Leaves: Leaves around the spots turn yellow, leading to a mottled appearance.</li>
+      <li>Leaf Drop: Severe infections can cause leaves to drop, weakening the plant.</li>
+      <li>Fruit Spots: In some cases, small, dark spots may appear on the fruit.</li>
+      <li>Reduced Yield: Target Spot can reduce fruit production as it progresses.</li>
+      <li>Thrive in Warm, Humid Conditions: The disease thrives in warm and humid weather.</li>
+      <li>Prevention and Management: Manage Target Spot with good garden hygiene, avoiding overhead watering, and considering fungicide application in severe cases. Adequate spacing and ventilation can also help reduce humidity and the risk of infection.</li>
+       Early detection and proper management are essential to minimize the impact of Target Spot on tomato plants and their yield.
+      </ul>
+      </div>
+  </div>
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+{%if a == "Star fruit"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    <div class="card">
+      <h2>Tomato Spider mites Two spotted spider mite</h2>
+      <h3>Scientific Name : Tetranychus urticae Koch </h3>
+      Target spot of tomato caused by Corynespora cassiicola, is a serious foliar disease of both greenhouse and field grown tomatoes. The field disease is limited to the tropical and subtropical regions of the world.
+      <h2>Symptoms</h2>
+      Target Spot is a fungal disease that affects tomato plants. 
+      <ul>
+      <li>Circular Spots: Dark, circular spots with a concentric ring pattern develop on tomato leaves.</li>
+      <li>Yellowing Leaves: Leaves around the spots turn yellow, leading to a mottled appearance.</li>
+      <li>Leaf Drop: Severe infections can cause leaves to drop, weakening the plant.</li>
+      <li>Fruit Spots: In some cases, small, dark spots may appear on the fruit.</li>
+      <li>Reduced Yield: Target Spot can reduce fruit production as it progresses.</li>
+      <li>Thrive in Warm, Humid Conditions: The disease thrives in warm and humid weather.</li>
+      <li>Prevention and Management: Manage Target Spot with good garden hygiene, avoiding overhead watering, and considering fungicide application in severe cases. Adequate spacing and ventilation can also help reduce humidity and the risk of infection.</li>
+       Early detection and proper management are essential to minimize the impact of Target Spot on tomato plants and their yield.
+      </ul>
+      </div>
+  </div>
+  <div class="rightcolumn">
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+{%if a == "Strawberry"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    <div class="card">
+      <h2>Tomato Spider mites Two spotted spider mite</h2>
+      <h3>Scientific Name : Tetranychus urticae Koch </h3>
+      Target spot of tomato caused by Corynespora cassiicola, is a serious foliar disease of both greenhouse and field grown tomatoes. The field disease is limited to the tropical and subtropical regions of the world.
+      <h2>Symptoms</h2>
+      Target Spot is a fungal disease that affects tomato plants. 
+      <ul>
+      <li>Circular Spots: Dark, circular spots with a concentric ring pattern develop on tomato leaves.</li>
+      <li>Yellowing Leaves: Leaves around the spots turn yellow, leading to a mottled appearance.</li>
+      <li>Leaf Drop: Severe infections can cause leaves to drop, weakening the plant.</li>
+      <li>Fruit Spots: In some cases, small, dark spots may appear on the fruit.</li>
+      <li>Reduced Yield: Target Spot can reduce fruit production as it progresses.</li>
+      <li>Thrive in Warm, Humid Conditions: The disease thrives in warm and humid weather.</li>
+      <li>Prevention and Management: Manage Target Spot with good garden hygiene, avoiding overhead watering, and considering fungicide application in severe cases. Adequate spacing and ventilation can also help reduce humidity and the risk of infection.</li>
+       Early detection and proper management are essential to minimize the impact of Target Spot on tomato plants and their yield.
+      </ul>
+      </div>
+  </div>
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+{%if a == "Tangerine"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+{%if a == "Watermelon"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/0_100.jpg/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+
+{%if a == "Walnut"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+{%if a == "Tomato"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+{%if a == "Tomato not Ripened"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    
+  <div class="rightcolumn">
+    
+    
+    <div class="card">
+      <h3>Student Name</h3>
+      <p><LI>STUDENT NAME :mubbashira fatima </LI>
+        
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+
+</body>
+</html>
